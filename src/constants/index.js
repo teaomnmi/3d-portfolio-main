@@ -29,13 +29,16 @@ const words = [
 ];
 
 const counterItems = [
-  { value: 15, suffix: "+", label: "Years of Experience" },
-  { value: 200, suffix: "+", label: "Satisfied Clients" },
-  { value: 108, suffix: "+", label: "Completed Projects" },
-  { value: 90, suffix: "%", label: "Client Retention Rate" },
+  { value: 7, suffix: "+", label: "Years of Experience" },
+  { value: 50, suffix: "+", label: "Satisfied Clients" },
+  { value: 75, suffix: "+", label: "Completed Projects" },
+  { value: 100, suffix: "%", label: "Client Retention Rate" },
 ];
 
 const logoIconsList = [
+  {
+    imgPath: "/images/logos/uwm-logo.png",
+  },
   {
     imgPath: "/images/logos/company-logo-1.png",
   },
@@ -69,6 +72,7 @@ const logoIconsList = [
   {
     imgPath: "/images/logos/company-logo-11.png",
   },
+
 ];
 
 const abilities = [
@@ -147,55 +151,79 @@ const techStackIcons = [
 
 const expCards = [
   {
-    review: "Teaomnmi brought creativity and technical expertise to the team, significantly improving our frontend performance. His work has been invaluable in delivering faster experiences.",
-    imgPath: "/images/exp1.png",
-    logoPath: "/images/logo1.png",
-    title: "Frontend Developer",
+    review: "Teaomnmi brought precision and a keen eye for detail to our logistics team, streamlining inventory tracking and improving data accuracy across systems. His contributions played a key role in keeping our operations running smoothly.",
+    imgPath: "/images/exp11.png",
+    logoPath: "/images/logo11.png",
+    title: "Logistics Data Coordinator",
     date: "January 2023 - Present",
     responsibilities: [
-      "Developed and maintained user-facing features for the Hostinger website.",
-      "Collaborated closely with UI/UX designers to ensure seamless user experiences.",
-      "Optimized web applications for maximum speed and scalability.",
+      "Managed inbound inventory using ERP and warehouse systems to ensure real-time stock accuracy.",
+      "Logged and routed high-volume shipments, identifying and escalating data discrepancies.",
+      "Coordinated with procurement and quality teams to align inventory with production needs.",
     ],
   },
+    {
+      review: "Teaomnmi, an honors graduate in Information Science and Technology from UW-Milwaukee, excels in full-stack development, database management, cloud computing, and cybersecurity. He is passionate about problem-solving and building impactful, user-centered solutions.",
+      imgPath: "/images/exp22.png",
+      logoPath: "/images/logo22.png",
+      title:"B.S. Information Science & Technology",
+      date: "January 2022 - August 2024",
+      responsibilities: [
+        "Full-Stack Web Development (HTML, CSS, JavaScript, React, PHP, Python Programming & Scripting)",
+        "Database Management (SQL, Data Modeling)",
+        "IT Support and Cybersecurity Fundamentals",
+        "Systems Analysis & User-Centered Design",
+        "Data Analytics and Visualization (Excel, Power BI)",
+      ],
+  },
   {
-    review: "Teaomnmi’s contributions to Docker's web applications have been outstanding. He approaches challenges with a problem-solving mindset.",
-    imgPath: "/images/exp2.png",
-    logoPath: "/images/logo2.png",
+    review: "Teaomnmi played a key role at BlueStone, building internal tools with React, Flask, and PostgreSQL. He supported DevOps on AWS, wrote data-sync scripts, and contributed to Agile workflows with clean, reliable code.",
+    imgPath: "/images/exp33.png",
+    logoPath: "/images/logo33.png",
     title: "Full Stack Developer",
-    date: "June 2020 - December 2023",
+    date: "January 2021 - May 2024",
     responsibilities: [
-      "Led the development of Docker's web applications, focusing on scalability.",
-      "Worked with backend engineers to integrate APIs seamlessly with the frontend.",
-      "Contributed to open-source projects that were used with the Docker ecosystem.",
+      "Developed internal dashboards using React and Tailwind CSS.",
+      "Built and integrated Flask APIs with PostgreSQL for ticketing systems.",
+      "Participated in Agile sprints, standups, and peer code reviews.",
+      "Wrote automation scripts to sync customer data across systems.",
+      "Deployed updates to AWS with GitHub Actions (EC2 & Lambda).",
     ],
   },
   {
-    review: "Adrian’s work on Appwrite’s mobile app brought a high level of quality and efficiency. He delivered solutions that enhanced our mobile experience & meet our product goals.",
-    imgPath: "/images/exp3.png",
-    logoPath: "/images/logo3.png",
-    title: "React Native Developer",
-    date: "March 2019 - May 2020",
+    review: "Teaomnmi served as a technical liaison at Grainger, resolving system issues and customer inquiries with speed and precision. He improved workflows, helped new reps, and consistently exceeded support benchmarks.",
+    imgPath: "/images/exp44.png",
+    logoPath: "/images/logo44.jpg",
+    title: "Technical Support Specialist",
+    date: "March 2020 - Dec 2022",
     responsibilities: [
-      "Built cross-platform mobile apps using React Native, integrating with Appwrite's backend services.",
-      "Improved app performance and user experience through code optimization and testing.",
-      "Coordinated with the product team to implement features based on feedback.",
+      "Acted as technical liaison resolving product, account, and order system issues.",
+      "Troubleshot login, order, and inventory issues using CRM/ERP tools.",
+      "Escalated complex problems, contributing to system improvements.",
+      "Collaborated with logistics, support, and IT to drive resolutions.",
+      "Trained new reps on internal systems and troubleshooting best practices.",
+      "Used digital ticketing tools to track cases and meet SLAs.",
+      "Recognized for fast issue resolution and high customer satisfaction.",
     ],
   },
 ];
 
 const expLogos = [
   {
-    name: "logo1",
-    imgPath: "/images/logo1.png",
+    name: "logo11",
+    imgPath: "/images/logo11.png",
   },
   {
-    name: "logo2",
-    imgPath: "/images/logo2.png",
+    name: "logo22",
+    imgPath: "/images/logo22.png",
   },
   {
-    name: "logo3",
-    imgPath: "/images/logo3.png",
+    name: "logo33",
+    imgPath: "/images/logo33.png",
+  },
+  {
+    name: "logo44",
+    imgPath: "/images/logo44.jpg",
   },
 ];
 
@@ -204,7 +232,7 @@ const testimonials = [
     name: "Esther Howard",
     mentions: "@estherhoward",
     review:
-      "I can’t say enough good things about Adrian. He was able to take our complex project requirements and turn them into a seamless, functional website. His problem-solving abilities are outstanding.",
+      "I can’t say enough good things about Teaomnmi. He was able to take our complex project requirements and turn them into a seamless, functional website. His problem-solving abilities are outstanding.",
     imgPath: "/images/client1.png",
   },
   {
@@ -218,14 +246,14 @@ const testimonials = [
     name: "Guy Hawkins",
     mentions: "@guyhawkins",
     review:
-      "Collaborating with Teaomnmi was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
+      "Collaborating with Teaomnmi was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Teaomnmi's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Teaomnmi is the ideal partner.",
     imgPath: "/images/client2.png",
   },
   {
     name: "Marvin McKinney",
     mentions: "@marvinmckinney",
     review:
-      "Adrian was a pleasure to work with. He turned our outdated website into a fresh, intuitive platform that’s both modern and easy to navigate. Fantastic work overall.",
+      "Teaomnmi was a pleasure to work with. He turned our outdated website into a fresh, intuitive platform that’s both modern and easy to navigate. Fantastic work overall.",
     imgPath: "/images/client5.png",
   },
   {
@@ -246,20 +274,14 @@ const testimonials = [
 
 const socialImgs = [
   {
-    name: "insta",
-    imgPath: "/images/insta.png",
-  },
-  {
-    name: "fb",
-    imgPath: "/images/fb.png",
-  },
-  {
-    name: "x",
-    imgPath: "/images/x.png",
+    name: "github",
+    imgPath: "/images/github.png",
+    link: "https://github.com/teaomnmi"
   },
   {
     name: "linkedin",
     imgPath: "/images/linkedin.png",
+    link: "https://www.linkedin.com/in/teaomnmi-hoskins-937833173/"
   },
 ];
 

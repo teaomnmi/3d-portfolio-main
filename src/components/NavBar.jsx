@@ -26,10 +26,11 @@ const NavBar = () => {
     <header className={`navbar ${scrolled ? "scrolled" : "not-scrolled"}`}>
       <div className="inner">
         <a href="#hero" className="logo">
-          T Hoskins
+          <img src="/images/lion.png" alt="Logo" className="h-20 w-20" />
         </a>
 
-        <nav className="desktop">
+
+      <nav className="desktop">
           <ul>
             {navLinks.map(({ link, name }) => (
               <li key={name} className="group">
